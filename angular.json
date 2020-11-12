@@ -28,9 +28,12 @@
             ],
             "styles": [
               "src/styles.scss",
-              "src/theme.scss"
+              "src/theme.scss",
+              "src/controls.css"
             ],
-            "scripts": []
+            "scripts": [
+            "src/assets/constants.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +122,11 @@
           }
         }
       }
-    }},
-  "defaultProject": "PrimeTubeClient"
+    }
+  },
+  "defaultProject": "PrimeTubeClient",
+  "cli": {
+    "defaultCollectio": "@ngrx/schematics",
+    "defaultCollection": "@ngrx/schematics"
+  }
 }

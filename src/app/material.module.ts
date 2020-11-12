@@ -1,21 +1,38 @@
 import { NgModule } from "@angular/core";
+import { LayoutModule } from '@angular/cdk/layout';
 import {
     MatButtonModule, MatToolbarModule,
     MatIconModule,
-    MatCardModule, MatCheckboxModule
+    MatCardModule, MatCheckboxModule, MatSidenavModule, MatListModule,  MatFormFieldModule , MatInputModule ,  MatProgressBarModule ,
+     MatProgressSpinnerModule, MatDividerModule, MatSlideToggleModule, MatSelectModule, MatOptionModule , MatRadioModule, MatExpansionModule, MatMenuModule, MatDialogModule, MatTabsModule, MatSnackBarModule
 } from "@angular/material";
+
 @NgModule({
     imports: [
-        MatButtonModule, MatCheckboxModule,
-        MatToolbarModule,
+        MatButtonModule, MatCheckboxModule, MatInputModule, MatFormFieldModule , MatProgressBarModule , MatProgressSpinnerModule , MatToolbarModule,  MatIconModule,
+        MatCardModule , LayoutModule, MatToolbarModule, MatDividerModule, MatSlideToggleModule,MatSelectModule,MatOptionModule,MatRadioModule , MatExpansionModule,  
+        MatButtonModule, MatMenuModule , MatDialogModule , MatProgressSpinnerModule, MatTabsModule, MatSnackBarModule,
+    
+        MatSidenavModule,
+    
         MatIconModule,
-        MatCardModule
+    
+        MatListModule
     ],
     exports: [
-        MatButtonModule, MatCheckboxModule,
+        MatButtonModule, MatCheckboxModule, MatInputModule  , MatFormFieldModule  , MatProgressBarModule , MatProgressSpinnerModule, MatDividerModule,
+        MatToolbarModule,MatSlideToggleModule,MatSelectModule, MatOptionModule , MatRadioModule , MatExpansionModule,
+        MatIconModule, MatMenuModule , MatDialogModule , MatProgressSpinnerModule , MatTabsModule, MatSnackBarModule , 
+        MatCardModule,
         MatToolbarModule,
+    
+        MatButtonModule,
+    
+        MatSidenavModule,
+    
         MatIconModule,
-        MatCardModule
+    
+        MatListModule
     ]
 })
 

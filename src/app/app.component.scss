@@ -11,17 +11,15 @@
     flex: 1 1 auto;
 }
 
-.sidenav-container {
-    height: 100%;
-  }
+
   
   .sidenav {
-    width: 200px;
+    width: 400px;
   }
   
   .sidenav .mat-toolbar {
     background: inherit;
-  }
+  }  
   
   .mat-toolbar.mat-primary {
     position: sticky;
@@ -29,3 +27,7 @@
     z-index: 1;
   }
   
+
+  .navbar {
+    overflow: hidden;
+  }

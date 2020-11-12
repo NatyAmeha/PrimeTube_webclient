@@ -1,0 +1,8 @@
+{
+    "serverUri" : "http://localhost:3000",
+    "liveServerUri" : "http://localhost:8080/live",
+    "videotypes" : [
+        "FREE", 
+        "PREMIUM"
+    ]
+}  
